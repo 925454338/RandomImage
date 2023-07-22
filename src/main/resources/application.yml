@@ -1,5 +1,12 @@
 server:
   port: 9090 # 服务端口
+  servlet:
+    context-path: /
 # 自定义设置
 customize:
-  noReferer: false # 是否允许referer为空
+  noReferer: true # 是否允许referer为空
+
+
+baseUrl: https://domain.com
+
+fileBaseUrl: downFile/
